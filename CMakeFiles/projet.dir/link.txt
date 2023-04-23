@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/projet.dir/projet_autogen/mocs_compilation.cpp.o CMakeFiles/projet.dir/main.cpp.o CMakeFiles/projet.dir/game.cpp.o CMakeFiles/projet.dir/taquin.cpp.o -o projet  /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.2 /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.2 /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.2 

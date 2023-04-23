@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>taquin</class>
+ <widget class="QMainWindow" name="taquin">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>454</width>
+    <height>366</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>taquin</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>454</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFichier">
+    <property name="title">
+     <string>Fichier</string>
+    </property>
+    <addaction name="NouvelPartie"/>
+    <addaction name="Charger"/>
+    <addaction name="Sauvegarder"/>
+    <addaction name="separator"/>
+    <addaction name="Quitter"/>
+   </widget>
+   <widget class="QMenu" name="menuFond">
+    <property name="title">
+     <string>Fond</string>
+    </property>
+    <addaction name="Original"/>
+    <addaction name="Foret"/>
+    <addaction name="Arbre"/>
+    <addaction name="Reseau"/>
+   </widget>
+   <widget class="QMenu" name="menuhelp">
+    <property name="title">
+     <string>help</string>
+    </property>
+    <addaction name="infoQt"/>
+    <addaction name="InfoTaquin"/>
+   </widget>
+   <addaction name="menuFichier"/>
+   <addaction name="menuFond"/>
+   <addaction name="menuhelp"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="infoQt">
+   <property name="text">
+    <string>A propos de Qt</string>
+   </property>
+  </action>
+  <action name="InfoTaquin">
+   <property name="text">
+    <string>A propos de Taquin</string>
+   </property>
+  </action>
+  <action name="Original">
+   <property name="text">
+    <string>Original</string>
+   </property>
+  </action>
+  <action name="NouvelPartie">
+   <property name="text">
+    <string>Nouvel partie</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+N</string>
+   </property>
+  </action>
+  <action name="Charger">
+   <property name="text">
+    <string>Charger</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+O</string>
+   </property>
+  </action>
+  <action name="Sauvegarder">
+   <property name="text">
+    <string>Sauvegarder</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+S</string>
+   </property>
+  </action>
+  <action name="Quitter">
+   <property name="text">
+    <string>Quitter</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Q</string>
+   </property>
+  </action>
+  <action name="Foret">
+   <property name="text">
+    <string>Foret</string>
+   </property>
+  </action>
+  <action name="Arbre">
+   <property name="text">
+    <string>Arbre</string>
+   </property>
+  </action>
+  <action name="Reseau">
+   <property name="text">
+    <string>Reseau</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

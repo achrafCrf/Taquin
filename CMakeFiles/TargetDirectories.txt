@@ -1,0 +1,4 @@
+/home/etud/Bureau/InterfaceGraphique/projetTaquin/CMakeFiles/rebuild_cache.dir
+/home/etud/Bureau/InterfaceGraphique/projetTaquin/CMakeFiles/edit_cache.dir
+/home/etud/Bureau/InterfaceGraphique/projetTaquin/CMakeFiles/projet.dir
+/home/etud/Bureau/InterfaceGraphique/projetTaquin/CMakeFiles/projet_autogen.dir
